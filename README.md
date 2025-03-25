@@ -1,6 +1,6 @@
 **UCW HR Professional Development: Data Analytics Portfolio**
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Welcome to my portfolio project, where I showcase how I implemented a Data Analytics Platform (DAP) on Amazon Web Services (AWS) for the HR Department’s Professional Development domain at University Canada West (UCW). This project aligns with the weekly teachings from our Cloud Computing course, in which we covered:
 	•	Designing data pipelines with S3 buckets (raw, transform, curated)
@@ -9,11 +9,11 @@ Welcome to my portfolio project, where I showcase how I implemented a Data Analy
 	•	Ensuring security, replication, cost optimization, and architecture best practices on AWS
 	•	Deploying or testing services such as Beanstalk, EC2, and logging (HR app logs, user logs, etc.)
  
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Below is a comprehensive explanation of each major section of the project, along with placeholders where I include relevant architecture diagrams, AWS console screenshots, data analysis results, and course completion badge at the end.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 **Table of Contents**
 	1.	Project Description
 	2.	Project Title
