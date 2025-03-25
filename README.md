@@ -1,15 +1,20 @@
 **UCW HR Professional Development: Data Analytics Portfolio**
+
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Welcome to my portfolio project, where I showcase how I implemented a Data Analytics Platform (DAP) on Amazon Web Services (AWS) for the HR Department’s Professional Development domain at University Canada West (UCW). This project aligns with the weekly teachings from our Cloud Computing course, in which we covered:
 	•	Designing data pipelines with S3 buckets (raw, transform, curated)
 	•	Managing data ingestion, transformation, and storage using AWS Glue, AWS DataBrew, AWS KMS, and other AWS components
 	•	Performing Exploratory, Descriptive, Diagnostic analyses, as well as Data Wrangling and Data Quality Control
 	•	Ensuring security, replication, cost optimization, and architecture best practices on AWS
 	•	Deploying or testing services such as Beanstalk, EC2, and logging (HR app logs, user logs, etc.)
+ 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Below is a comprehensive explanation of each major section of the project, along with placeholders where I include relevant architecture diagrams, AWS console screenshots, data analysis results, and course completion badge at the end.
+
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-Table of Contents
+**Table of Contents**
 	1.	Project Description
 	2.	Project Title
 	3.	Objective
@@ -29,12 +34,17 @@ Table of Contents
 	12.	Conclusion
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 **Project Description**
+
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Department: HR – Professional Development
 Focus: Building an end-to-end data analytics platform and pipelines for HR’s professional development programs at UCW.
+
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 In our Cloud Computing course, each student group was assigned a department. My team was assigned HR, and my specific role targeted the Professional Development subset of HR data. Throughout the course, we learned how to architect solutions in AWS, using S3 for storage (with separate buckets for raw, transformed, and curated data), AWS Glue for ETL/ELT tasks, AWS DataBrew for data profiling and cleaning, AWS IAM/KMS for security and encryption, and so on. We also explored cost optimization strategies, usage logs, and partial application deployments via AWS Elastic Beanstalk and EC2 for demonstration purposes.
+
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 **Project Title**
 
@@ -45,6 +55,8 @@ In our Cloud Computing course, each student group was assigned a department. My 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 **Objective**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 The main goal is to gather, process, analyze, and gain insights into professional development activities within the UCW HR department, ensuring data is secure, well-structured, and readily available for advanced analytics. This covers:
 	1.	Data Ingestion of CSV files and other structured data
@@ -57,11 +69,11 @@ The main goal is to gather, process, analyze, and gain insights into professiona
 	8.	Cost Optimization evaluation for the chosen AWS services
 	9.	Deployment of relevant prototypes or dashboards for end users (if needed)
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-Dataset
+**Dataset Overview**
 
-Overview
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 I worked primarily with Professional Development data stored in CSV format (e.g., Professional_Development_Activities.csv). The dataset typically includes fields like:
 	•	Employee ID / Name
@@ -72,13 +84,16 @@ I worked primarily with Professional Development data stored in CSV format (e.g.
 	•	Feedback or Evaluation metrics
 	•	Any Additional Fields relevant to staff development
 
-Other auxiliary datasets might include:
+ ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+**Other auxiliary datasets might include:**
+
 	•	Employees-List.csv (general HR employee data)
 	•	Financial_Support-List.csv (funding or reimbursements for professional development)
 
 All these CSVs were stored initially in the Raw S3 bucket and then moved through the pipeline for cleaning, transformation, and curation.
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Architecture Overview
 
@@ -316,7 +331,7 @@ Please find below a placeholder where I will add my AWS Academy CF course comple
 
 ⸻
 
-Conclusion
+**Conclusion**
 
 Through this project, I demonstrated the end-to-end implementation of a Data Analytics Platform for the UCW HR Department (Professional Development) on AWS. The solution follows best practices for:
 	•	Scalability (using S3, Glue, DataBrew, and optional deployment services)
@@ -330,26 +345,4 @@ This portfolio reflects the key learning outcomes from my Cloud Computing course
 Thank you for reviewing my portfolio! If you have any questions or need further clarification on any part of the implementation, please feel free to reach out.
 
 ⸻
-
-End of README
-
-Note:
-	•	Replace every “Placeholder” image reference with your actual screenshot paths.
-	•	If you have additional diagrams or sections, feel free to add them under separate headings.
-	•	You can also provide more detail on your DataBrew transformations, Glue job scripts, or code snippets in this README or in separate markdown files within your repository.
-
-⸻
-
-Additional Tips
-	•	Keep your folder structure in GitHub well-organized:
-	•	README.md at the root
-	•	/images or /screenshots subfolder for screenshots
-	•	scripts/ for any Python or Glue scripts
-	•	notebooks/ for Jupyter notebooks
-	•	Always double-check any secrets or credentials are not accidentally pushed to GitHub.
-	•	Use GitHub Pages or Wiki if you want a more polished presentation of your documentation.
-
-⸻
-
-Congratulations! You now have a detailed, structured, and long-form README that meets your professor’s requirements for exploratory, descriptive, diagnostic, wrangling, and data quality tasks—all tied back to your specific HR Professional Development project in AWS.
 
