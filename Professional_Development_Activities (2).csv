@@ -1,0 +1,51 @@
+Activity_ID,Employee_ID,Activity_Name,Activity_Type,Date_Completed,Duration_Hours,Instructor,Location,Cost,Feedback_Score
+A001,E001,Leadership Training,Workshop,2024-06-15,8,Johnathan Doe,Online,500,4.5
+A002,E002,Digital Marketing Seminar,Seminar,2024-07-10,6,Mary Johnson,New York,300,4.7
+A003,E003,Java Programming Certification,Certification,2024-05-05,40,Steve Martin,Online,800,4.9
+A004,E004,Sales Strategy Masterclass,Workshop,2024-06-20,5,Susan Davis,Chicago,350,4.3
+A005,E005,Financial Analysis Advanced Course,Course,2024-04-18,20,Robert Lee,Online,600,4.8
+A006,E006,HR Management Seminar,Seminar,2024-07-12,5,Laura Brown,Boston,250,4.6
+A007,E007,Project Management Certification,Certification,2024-03-22,30,David Green,Online,900,4.8
+A008,E008,Creative Advertising Workshop,Workshop,2024-08-25,7,Karen White,Los Angeles,400,4.2
+A009,E009,Cybersecurity Essentials Course,Course,2024-09-10,15,Chris Lee,Online,700,4.6
+A010,E010,Employee Engagement Training,Workshop,2024-10-05,8,Linda Walker,Online,550,4.5
+A011,E011,Customer Relationship Management,Seminar,2024-02-16,6,James Hall,San Francisco,320,4.4
+A012,E012,Data Analytics Masterclass,Workshop,2024-11-01,10,Alan Scott,Online,650,4.7
+A013,E013,Agile Methodology Course,Course,2024-12-04,12,John Davis,Online,750,4.9
+A014,E014,Team Building Workshop,Workshop,2024-08-15,5,Emily Thomas,Los Angeles,300,4.8
+A015,E015,Financial Reporting Seminar,Seminar,2024-07-23,4,Patricia Hill,Online,200,4.1
+A016,E016,Conflict Resolution Training,Workshop,2024-05-30,6,George Miller,Chicago,275,4.6
+A017,E017,Public Speaking Course,Course,2024-06-07,15,Susan Lee,Online,500,4.4
+A018,E018,Marketing Strategy Workshop,Workshop,2024-09-15,7,Karen Bell,New York,400,4.5
+A019,E019,Time Management Seminar,Seminar,2024-06-01,4,David White,Los Angeles,180,4.3
+A020,E020,Strategic Planning Course,Course,2024-11-12,18,Michael Adams,Online,850,4.8
+A021,E021,Effective Leadership Training,Workshop,2024-07-30,8,Tom Harris,San Francisco,500,4.7
+A022,E022,Excel for Business Professionals,Workshop,2024-05-25,6,Jessica Moore,Online,250,4.2
+A023,E023,Negotiation Skills Course,Course,2024-04-12,20,William Baker,Chicago,650,4.9
+A024,E024,Marketing Analytics Seminar,Seminar,2024-09-01,5,Elizabeth Clark,Los Angeles,220,4.4
+A025,E025,IT Security Fundamentals,Course,2024-08-10,12,Victor Turner,Online,600,4.6
+A026,E026,Corporate Finance Workshop,Workshop,2024-06-19,7,Michael Nelson,Online,350,4.7
+A027,E027,Effective Communication Training,Workshop,2024-02-22,6,Patricia Allen,Boston,300,4.5
+A028,E028,Sales Funnel Optimization Course,Course,2024-04-26,14,John King,New York,650,4.8
+A029,E029,Advanced Excel Techniques,Workshop,2024-10-17,5,Jessica Lee,Online,280,4.3
+A030,E030,Customer Service Excellence Course,Course,2024-11-20,20,Linda Harris,Chicago,700,4.5
+A031,E031,Design Thinking Workshop,Workshop,2024-03-09,6,Sarah Carter,Boston,250,4.6
+A032,E032,Web Development Bootcamp,Certification,2024-06-28,60,John Davis,Online,1000,5.0
+A033,E033,Data Science Seminar,Seminar,2024-07-05,5,James Brown,San Francisco,300,4.7
+A034,E034,HR Compliance Training,Workshop,2024-10-22,4,Angela White,Online,220,4.2
+A035,E035,Social Media Marketing Course,Course,2024-12-15,12,Olivia Moore,New York,550,4.8
+A036,E036,Employee Wellness Seminar,Seminar,2024-05-13,4,Daniel Green,Los Angeles,180,4.1
+A037,E037,Lean Six Sigma Training,Workshop,2024-09-25,8,Mark Roberts,Chicago,400,4.9
+A038,E038,Supply Chain Management Course,Course,2024-06-05,18,Clara Thompson,Online,700,4.7
+A039,E039,Sales Leadership Course,Course,2024-07-18,20,Patrick White,Boston,750,4.8
+A040,E040,Employee Retention Strategies Workshop,Workshop,2024-08-22,6,Nancy Clark,San Francisco,350,4.5
+A041,E041,SEO Best Practices Seminar,Seminar,2024-04-03,4,Rachel Scott,Los Angeles,250,4.2
+A042,E042,Personal Branding Workshop,Workshop,2024-05-10,7,Katherine Young,Online,300,4.4
+A043,E043,Sales Performance Coaching Course,Course,2024-11-08,15,Jason Taylor,Chicago,600,4.6
+A044,E044,Leadership Development Program,Program,2024-03-25,40,Richard Evans,Online,900,4.8
+A045,E045,Customer Feedback Analysis Training,Workshop,2024-10-02,5,Victoria Brown,New York,350,4.5
+A046,E046,Time Management and Productivity,Workshop,2024-06-12,6,Natalie White,Online,250,4.6
+A047,E047,Financial Forecasting Course,Course,2024-04-21,14,Andrew Hall,San Francisco,550,4.7
+A048,E048,Effective Team Collaboration,Workshop,2024-02-14,5,David Johnson,Chicago,300,4.5
+A049,E049,Blockchain Technology Course,Course,2024-11-17,20,Mark Brown,Online,800,4.9
+A050,E050,Executive Coaching Session,Coaching,2024-09-05,10,Mary Williams,Los Angeles,1500,5.0
