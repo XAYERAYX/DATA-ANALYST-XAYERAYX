@@ -1,408 +1,390 @@
-**UCW HR Professional Development: Data Analytics Portfolio**
+Below is a highly detailed, PhD-level portfolio README that thoroughly covers both of your major projects:
+	1.	UCW HR Professional Development (your “department” was Professional Development within HR).
+	2.	City of Vancouver – Consulting & Management Services (your specific portion of the group project).
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+It integrates all instructions from the professor on exploratory/ descriptive/ diagnostic analyses, data wrangling, data quality, cost optimization, AWS usage, naming conventions, etc. It also includes placeholders telling you exactly which screenshots to insert (e.g., from your draw.io final diagrams, S3 console, DataBrew, Glue, etc.). Replace or remove any references as needed, and fill in the placeholders with the correct images from your PDF documents and screenshots.
 
-Welcome to my portfolio project, where I showcase how I implemented a Data Analytics Platform (DAP) on Amazon Web Services (AWS) for the HR Department’s Professional Development domain at University Canada West (UCW). This project aligns with the weekly teachings from our Cloud Computing course, in which we covered:
-	•	Designing data pipelines with S3 buckets (raw, transform, curated)
-	•	Managing data ingestion, transformation, and storage using AWS Glue, AWS DataBrew, AWS KMS, and other AWS components
-	•	Performing Exploratory, Descriptive, Diagnostic analyses, as well as Data Wrangling and Data Quality Control
-	•	Ensuring security, replication, cost optimization, and architecture best practices on AWS
-	•	Deploying or testing services such as Beanstalk, EC2, and logging (HR app logs, user logs, etc.)
- 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+Since you said you didn’t use Python/Pandas but rather SQL (Athena or otherwise) for queries, I’ve removed any references to Python code. This portfolio is extremely comprehensive and can be split into multiple README sections if desired. However, below is one monolithic version for copy-paste convenience.
 
-Below is a comprehensive explanation of each major section of the project, along with placeholders where I include relevant architecture diagrams, AWS console screenshots, data analysis results, and course completion badge at the end.
+⸻
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+Comprehensive Cloud Computing Portfolio
 
-**Table of Contents**
+Author: Muhammad Zulqarnain Shahzad (2306553)
+Course: BUSI 653 - Cloud Computing Technologies
+Professor: Dr. Mahmood Mortazavi Dehkordi
+Institution: University Canada West
+Team: Group 1
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-	
- 1.	Project Description
-	
- 2.	Project Title
+⸻
 
- 3.	Objective
+Table of Contents
+	1.	Introduction
+	2.	Overall Portfolio Overview
+	3.	Project A: UCW HR Professional Development
+	•	Project Description
+	•	Project Title
+	•	Objective
+	•	Datasets
+	•	Architecture Diagram
+	•	Methodology
+	•	Implementation Steps
+	•	Tools and Technologies
+	•	Deliverables
+	4.	Project B: City of Vancouver (Consulting & Management Services)
+	•	Project Description
+	•	Project Title
+	•	Objective
+	•	Datasets
+	•	Architecture Diagram
+	•	Methodology
+	•	Implementation Steps
+	•	Tools and Technologies
+	•	Deliverables
+	5.	In-Class Participation & Business Questions
+	6.	Screenshots & Placeholder References
+	7.	Course Completion Badge
+	8.	Conclusion
+	9.	Appendix or Additional Notes
 
- 4.	Dataset
+⸻
 
- 5.	Architecture Overview
+1. Introduction
 
- 6.	Methodology
-	
- 7.	Exploratory Data Analysis
+During our BUSI 653 Cloud Computing course at University Canada West, we undertook two significant cloud-based data analytics projects on AWS:
+	1.	UCW HR Professional Development
+	•	I handled the “Professional Development” subset within the HR Department.
+	2.	City of Vancouver
+	•	Specifically, I worked on the Consulting & Management Services data from the City of Vancouver open data portal.
 
- 8.	Descriptive Analysis
-	
- 9.	Diagnostic Analysis
-	
- 10.	Data Wrangling
-	
- 11.	Data Quality Control
-	
- 12.	Tools and Technologies
-	
- 13.	Deliverables
-	
- 14.	Timeline
-	
- 15.	Screenshots & Diagram Placeholders
-	
- 16.	Course Completion Badge
-	
- 17.	Conclusion
+Both projects required end-to-end design of a Data Analytic Platform (DAP) using AWS services for ingestion, transformation, security, cost analysis, and more.
+We also addressed exploratory, descriptive, and diagnostic analytics, along with data wrangling and data quality controls.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+Additionally, we participated in in-class activities, answering business questions about best practices, naming conventions, cost optimization, and data security. This README is a single comprehensive portfolio bringing together all that work.
 
-**Project Description**
+⸻
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+2. Overall Portfolio Overview
+	•	Project A: UCW HR (Professional Development)
+	•	Focus: building an AWS-based pipeline for professional development data (employees, activities, financial support).
+	•	Emphasis: S3 folder structures (raw/transform/curated), AWS Glue, DataBrew, cost optimization, user logs, etc.
+	•	Project B: City of Vancouver (Consulting & Management Services)
+	•	My personal portion from a group of four. Others used different Vancouver data, but I used the business-licenses CSV focusing on consulting/management businesses.
+	•	Steps: ingestion, cleaning, transformations, analytics, plus advanced AWS security and data governance features.
 
-Department: HR – Professional Development
-Focus: Building an end-to-end data analytics platform and pipelines for HR’s professional development programs at UCW.
+Throughout both, we adhered to the professor’s instructions to incorporate:
+	•	Exploratory Data Analysis (EDA)
+	•	Descriptive Analysis
+	•	Diagnostic Analysis
+	•	Data Wrangling
+	•	Data Quality Control
+	•	Security (KMS, IAM, versioning, replication)
+	•	Cost Optimization (Lifecycle policies, CloudWatch alerts, minimal scanning in queries)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+We also used SQL queries (e.g., in Athena) for final analysis, rather than Python/Pandas.
 
-In our Cloud Computing course, each student group was assigned a department. My team was assigned HR, and my specific role targeted the Professional Development subset of HR data. Throughout the course, we learned how to architect solutions in AWS, using S3 for storage (with separate buckets for raw, transformed, and curated data), AWS Glue for ETL/ELT tasks, AWS DataBrew for data profiling and cleaning, AWS IAM/KMS for security and encryption, and so on. We also explored cost optimization strategies, usage logs, and partial application deployments via AWS Elastic Beanstalk and EC2 for demonstration purposes.
+⸻
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+3. Project A: UCW HR Professional Development
 
-**Project Title**
+3.1. Project Description (UCW HR)
+
+This initiative targeted the Professional Development domain within UCW’s HR Department. We developed a robust data pipeline to ingest, store, and analyze professional development records—such as training sessions, finance approvals, and employee logs.
+
+3.2. Project Title (UCW HR)
 
 “Implementing a Cloud-Based Data Analytics Platform for HR Professional Development at UCW”
 
+3.3. Objective (UCW HR)
+	•	Goal #1: Centralize all professional development data (activities, employees, financial support) in a secure, scalable AWS environment.
+	•	Goal #2: Deliver insights on training frequency, cost distribution, employee feedback, and anomalies.
+	•	Goal #3: Incorporate advanced security (KMS, IAM), cost management, and data quality checks.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+3.4. Datasets (UCW HR)
+	1.	Professional_Development_Activities.csv
+	2.	Employees-List.csv
+	3.	Financial_Support-List.csv
 
-**Objective**
+Fields typically include:
+	•	Employees: EmployeeID, Name, Department, Role, etc.
+	•	Activities: ActivityID, ActivityName, Date, Cost, Type, etc.
+	•	Financial: SupportID, ApprovedAmount, SupportStatus, etc.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+All uploaded initially to an S3 “raw” bucket.
 
-The main goal is to gather, process, analyze, and gain insights into professional development activities within the UCW HR department, ensuring data is secure, well-structured, and readily available for advanced analytics. This covers:
+3.5. Architecture Diagram (UCW HR)
 
-	1.	Data Ingestion of CSV files and other structured data
-	2.	Data Storage in AWS S3 (raw, transform, curated buckets)
-	3.	ETL using AWS Glue (Glue crawlers, jobs) and AWS DataBrew for data cleaning
-	4.	Data Quality, Validation, and Security with AWS KMS, IAM roles, and versioning/replication
-	5.	Exploratory, Descriptive, and Diagnostic Analysis on the professional development dataset
-	6.	Data Wrangling to merge and transform data for deeper insights
-	7.	Data Quality Control measures for ongoing reliability and consistency
-	8.	Cost Optimization evaluation for the chosen AWS services
-	9.	Deployment of relevant prototypes or dashboards for end users (if needed)
+Placeholder: ![UCW-HR draw.io diagram](./screenshots/ucw-hr-architecture.png)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+Provide the final draw.io screenshot from around Week 9 or Week 10:
+	•	S3 (raw → transform → curated)
+	•	AWS Glue DataBrew/ETL
+	•	KMS, IAM roles, cross-region replication
+	•	Possibly an EC2 or Beanstalk reference if your professor’s draw.io included that.
 
-**Dataset Overview**
+3.6. Methodology (UCW HR)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+According to the professor’s instructions, we implemented:
+	1.	Exploratory Data Analysis: Identify missing values, outliers, distribution.
+	2.	Descriptive Analysis: Summarize training sessions by cost, frequency, time.
+	3.	Diagnostic Analysis: Investigate lower training uptake in certain quarters.
+	4.	Data Wrangling: Merge employee + activities + financial data, fix data type issues, remove duplicates.
+	5.	Data Quality Control: Evaluate completeness, uniqueness, date freshness (some tasks done in AWS Glue).
 
-I worked primarily with Professional Development data stored in CSV format (e.g., Professional_Development_Activities.csv). The dataset typically includes fields like:
+3.7. Implementation Steps (UCW HR)
+	1.	Data Ingestion
+	•	Created three S3 buckets: ucw-hr-zul-raw, ucw-hr-zul-transform, ucw-hr-zul-curated.
+	•	Placed CSVs in the raw bucket.
+	2.	Data Profiling (DataBrew)
+	•	Built a DataBrew project (e.g., “HRProfDevProjectZUL”).
+	•	Verified missing data, textual anomalies.
+	3.	Data Cleaning & Transformation
+	•	Used DataBrew recipes: remove punctuation, fix date columns, fill missing cost with 0 or “N/A.”
+	•	Output to the transform S3 bucket.
+	4.	Glue Crawler & Catalog
+	•	Created a crawler (“HR-ZUL-crawler”) to scan the transform bucket.
+	•	Verified the schema in AWS Glue Data Catalog.
+	5.	Glue ETL Job
+	•	Visually mapped columns from employees/activities/financial to produce a curated, merged table.
+	•	Summarized or aggregated cost totals per employee or per month.
+	•	Output to ucw-hr-zul-curated.
+	6.	Analytics (SQL in Athena)
+	•	Ran queries such as SELECT department, COUNT(*) FROM hr_training GROUP BY department;
+	•	Explored cost patterns or monthly participation rates.
+	7.	Security & Replication
+	•	Created a KMS CMK to encrypt S3 objects by default.
+	•	Enabled versioning and cross-region replication from ucw-hr-zul-raw to a backup bucket (e.g., “ucw-hr-backup”).
+	8.	Data Quality
+	•	Employed Glue data quality rules for checking no cost < 0, ensuring valid date ranges.
+	•	“Pass” vs. “Fail” routing to separate subfolders.
+	9.	Cost Optimization
+	•	Activated S3 lifecycle policies to move older data to infrequent access or Glacier.
+	•	Monitored usage with CloudWatch alarms.
 
-	•	Employee ID / Name
-	•	Training/Workshop Name
-	•	Dates
-	•	Duration of the activity (e.g., hours, days)
-	•	Cost (e.g., for external training)
-	•	Feedback or Evaluation metrics
-	•	Any Additional Fields relevant to staff development
+3.8. Tools and Technologies (UCW HR)
+	•	AWS S3 (raw/transform/curated), versioning, replication
+	•	AWS Glue (DataBrew, crawler, ETL)
+	•	AWS KMS (encryption) + IAM (role-based security)
+	•	AWS Athena for SQL analytics
+	•	draw.io for architecture diagram
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+3.9. Deliverables (UCW HR)
+	1.	HR draw.io diagram
+	2.	Cleaned & merged dataset in curated
+	3.	DataBrew job screenshots showing transformations
+	4.	Glue ETL script or job definitions
+	5.	SQL queries run in Athena, plus a summary of findings
+	6.	Data Quality pass/fail outputs
+	7.	CloudWatch cost/logs monitoring setup
 
-**Other auxiliary datasets might include:**
+⸻
 
-	•	Employees-List.csv (general HR employee data)
-	•	Financial_Support-List.csv (funding or reimbursements for professional development)
+4. Project B: City of Vancouver (Consulting & Management Services)
 
-All these CSVs were stored initially in the Raw S3 bucket and then moved through the pipeline for cleaning, transformation, and curation.
+4.1. Project Description (City VAN)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+As part of a 4-person group, each member tackled a different Vancouver dataset. My subset was the “Consulting & Management Services” business license data. The aim was to build a scalable AWS pipeline for ingestion → cleaning → summarization → analysis.
 
-**Architecture Overview**
+4.2. Project Title (City VAN)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+“Advanced AWS Data Analytics for Vancouver’s Consulting & Management Services Business Licenses”
 
-Below is a high-level look at the AWS architecture for the HR Professional Development data analytics pipeline:
+4.3. Objective (City VAN)
+	•	Centralize “Consulting & Management Services” licensing data from Vancouver’s open data, ensuring it’s consistent and up-to-date.
+	•	Provide descriptive metrics (license counts, statuses, issuance trends) and diagnostic insight into anomalies or sudden changes.
+	•	Maintain data security, data quality, and cost-effective operations.
 
-	1.	S3 Buckets:
-	•	ucw-hr-zul-raw: Original ingestion of CSV or JSON data files (raw format)
-	•	ucw-hr-zul-transform: Intermediate, cleaned files (after DataBrew or Glue jobs)
-	•	ucw-hr-zul-curated: Final curated data, ready for analytics and consumption
-	2.	AWS Glue:
-	•	Glue Crawlers to detect schema and create table definitions in the Data Catalog
-	•	Glue ETL Jobs to transform data (e.g., partitioning, column renaming, etc.)
-	3.	AWS DataBrew:
-	•	Profiling the raw data (missing values, outliers, quality metrics)
-	•	Recipe-based transformations for data cleaning
-	4.	Security & Governance:
-	•	AWS KMS to encrypt S3 objects at rest
-	•	IAM roles and policies for controlling access to S3, Glue, DataBrew, etc.
-	•	Versioning & Replication to handle possible data recovery and high availability
-	5.	Additional Services:
-	•	Amazon EC2 / Elastic Beanstalk for hosting potential data applications or HR dashboards
-	•	CloudWatch logs for monitoring HR user logs, application logs, and cost optimization metrics
-	6.	Cost Analysis / Optimization:
-	•	Evaluate S3 storage class usage (Standard vs. Infrequent Access)
-	•	Consider Glue job triggers and usage patterns to reduce overhead
-	•	Track hours for running DataBrew sessions
-	•	Evaluate EC2 instance types for possible cost savings
-	7.	Data Consumption:
-	•	Visualization or further analysis can be done using Amazon QuickSight, local Jupyter notebooks, or any BI tools.
+4.4. Datasets (City VAN)
+	•	Business Licences - Consulting and Management Services.csv
+	•	Typical fields: LicenseNumber, BusinessName, BusinessType, IssuedDate, Status, etc.
+	•	Possibly up to a few thousand records.
 
-(See the placeholder below where I have included an example draw.io architectural diagram. In my actual project, I replaced all references to “Registrar” with “HR” and “MAH” with “ZUL.”)
+(Other team members used different data, e.g., Animal Control, 3-1-1 metrics. My portion is specifically Consulting & Management.)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+4.5. Architecture Diagram (City VAN)
 
-**Methodology**
+Placeholder: ![CityVan-ConsultingServices Architecture](./screenshots/city-van-architecture.png)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+Insert your final draw.io that references:
+	•	S3 buckets (raw, transform, curated) named “city-van-zul-raw,” etc.
+	•	DataBrew for cleaning, AWS Glue crawler for catalog, ETL for summarization
+	•	KMS encryption, versioning, cross-region replication
 
-1. Exploratory Data Analysis
+4.6. Methodology (City VAN)
 
-Project Description (EDA):
-Conduct an Exploratory Data Analysis on the HR Professional Development dataset to discover patterns, anomalies, or interesting trends. This corresponds to investigating factors such as which employees are most active in training, the most expensive workshops, or seasonal trends in professional development.
+Following professor’s instructions:
+	1.	Exploratory Data Analysis: Found missing fields, invalid statuses, date anomalies.
+	2.	Descriptive Analysis: Summarized total active licenses, monthly issuance patterns.
+	3.	Diagnostic Analysis: Explored potential cause of unexpected spikes or dips in license issuance.
+	4.	Data Wrangling: DataBrew transformations (removing duplicates, normalizing date formats to “YYYY-MM-DD,” etc.).
+	5.	Data Quality: Checking that each license has a valid number, consistent status, and non-empty business name.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Steps:
-
-	1.	Data Collection & Preparation
-	•	Loaded CSV files from the Raw S3 bucket (e.g., Professional_Development_Activities.csv) using Python (Pandas) or AWS DataBrew.
-	•	Handled missing values (e.g., missing cost or duration).
-	•	Checked data types, ensuring columns like Date or Duration are properly cast.
-	2.	Descriptive Statistics
-	•	Computed means, medians, and other summary stats on cost, duration, attendance.
-	•	Frequency distribution for training categories or types of workshops.
-	3.	Data Visualization
-	•	Created histograms (duration, cost)
-	•	Bar charts (training count by department, or by region if available)
-	•	Heatmaps/correlation analyses (e.g., cost vs. satisfaction scores)
-	4.	Insights & Findings
-	•	Found top 5 training programs with highest cost or highest attendance.
-	•	Observed peaks in certain months when HR invests in professional development.
-	5.	Conclusion
-	•	Summarized potential next steps like advanced predictive modeling or trend forecasting.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-**2. Descriptive Analysis**
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Project Description (Descriptive Analysis):
-Provide a detailed overview of how professional development activities have been used by the HR department over a certain period. Summarize the key patterns in terms of cost, frequency, popularity, and outcomes.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Steps:
-
-	1.	Data Collection & Cleaning
-	•	Use AWS Glue or DataBrew to remove duplicates, standardize activity names.
-	2.	Descriptive Statistics
-	•	Total training count, average cost per employee, distribution of training topics.
-	3.	Data Visualization
-	•	Time-series graphs showing monthly or quarterly training spend.
-	•	Bar charts for most popular workshop categories (soft skills, technical, leadership, etc.).
-	4.	Customer (Employee) Segmentation (optional)
-	•	Segment employees by the amount of training completed or by performance feedback.
-	5.	Recommendations
-	•	Provide suggestions to HR on which types of training yield the most positive feedback.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-**3. Diagnostic Analysis**
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Project Description (Diagnostic Analysis):
-Investigate if there are any decreases or abnormal trends in professional development participation or expenditures. For instance, if the HR department sees lower participation in certain quarters, we identify root causes (budget constraints, scheduling conflicts, etc.).
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Steps:
-
-	1.	Trend Analysis
-	•	Compare data over the last year or last few quarters to spot any declines.
-	2.	Correlation Analysis
-	•	Check if decreased participation correlates with other factors (e.g., busy academic periods, lack of manager approval).
-	3.	Root Cause Analysis
-	•	Possibly apply “5 Whys” technique or gather feedback from employees or managers.
-	•	Evaluate if certain training types repeatedly show lower enrollment.
-	4.	Synthesis of Findings
-	•	Summarize possible reasons for the drop.
-	5.	Actionable Recommendations
-	•	Suggest additional communication channels, better scheduling, or improved budget allocation.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-**4. Data Wrangling**
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Project Description (Data Wrangling):
-Gather and unify data from multiple HR sources (e.g., main employee list, professional development activities, finance/reimbursement data) to create a clean “single source of truth” for analyzing professional development.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Steps:
-
-	1.	Data Collection
-	•	Pull CSV or database exports from multiple sources.
-	•	Consolidate them in S3 raw bucket.
-	2.	Data Cleaning
-	•	Remove duplicates, fix inconsistent naming conventions, handle missing or invalid data.
-	•	Possibly use AWS DataBrew recipes to automate some cleaning transformations.
-	3.	Data Transformation
-	•	Convert string dates to datetime.
-	•	Derive new fields, e.g., “Total Training Hours,” “Cost per Hour,” “Employee Tenure.”
-	4.	Data Consolidation
-	•	Merge data with unique IDs to keep employee-level details consistent.
-	•	Store resulting cleaned dataset in the S3 transform bucket.
-	5.	Validation
-	•	Run quick EDA checks or summary stats to ensure final dataset matches expectations.
-	•	Document transformations (in Jupyter Notebook or DataBrew jobs).
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-**5. Data Quality Control**
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Project Description (Data Quality Control):
-Implement measures that ensure the data is accurate, consistent, and reliable over time. This includes Data Profiling, Cleansing, Validation Rules, and Monitoring.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Steps:
-
-	1.	Current State Assessment
-	•	Evaluate existing data for duplicates, missing values, or incorrect formatting.
+4.7. Implementation Steps (City VAN)
+	1.	Data Ingestion
+	•	Created S3 buckets: city-van-zul-raw, city-van-zul-transform, city-van-zul-curated.
+	•	Placed the CSV in a subfolder “consulting-management” under raw.
 	2.	Data Profiling
-	•	Use AWS DataBrew or other data profiling tools to systematically assess completeness, uniqueness, and overall data health.
-	3.	Quality Metrics & KPIs
-	•	Define acceptable error rates or thresholds for missing data.
-	4.	Data Cleansing Processes
-	•	Standardize naming conventions for departments or training modules.
-	•	Fill missing values where possible or remove outliers if they are truly erroneous.
-	5.	Validation Rules
-	•	Ensure new records inserted follow consistent data types and mandatory fields.
-	6.	Monitoring & Reporting
-	•	Create scheduled AWS Glue/DataBrew jobs that validate data.
-	•	Provide dashboards (e.g., QuickSight, Power BI) to track quality metrics in real time.
-	7.	Training & Best Practices
-	•	Educate team members on correct data entry methods.
-	•	Encourage a culture of accountability for data cleanliness.
+	•	Used DataBrew to create a project, e.g. “ConsultingMgmtProjectZUL.”
+	•	Found missing license fees or “IssuedDate” issues.
+	3.	Data Cleaning
+	•	DataBrew recipe: remove special characters from “BusinessName,” unify date formats, fill missing license fees as “N/A.”
+	•	Output to the transform bucket.
+	4.	AWS Glue Crawler & Catalog
+	•	Created a crawler “CityVanConsultingCrawler” pointing to transform bucket.
+	•	Verified table schema in AWS Glue data catalog.
+	5.	ETL & Summaries
+	•	Potentially joined with a small reference table for “Business Type” if available.
+	•	Aggregated license counts by “Status,” “IssuedYear,” etc.
+	•	Output curated summary to city-van-zul-curated.
+	6.	Analysis
+	•	Used AWS Athena queries, e.g. SELECT Status, COUNT(*) FROM consulting_management GROUP BY Status;
+	•	Studied monthly issuance for descriptive/diagnostic insights.
+	7.	Security / Replication
+	•	KMS encryption, IAM roles limiting who can read the curated bucket.
+	•	Bucket versioning + cross-region replication to “city-van-zul-backup.”
+	8.	Data Quality
+	•	Glue data quality checks for valid (non-empty) LicenseNumber, date being in a plausible range.
+	•	Separated “passed” vs. “failed” records to different transform subfolders.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+4.8. Tools and Technologies (City VAN)
+	•	AWS S3 (raw → transform → curated)
+	•	AWS Glue (DataBrew, crawler, ETL)
+	•	IAM, KMS for security & encryption
+	•	Athena for SQL analytics
+	•	CloudWatch for cost & usage monitoring
 
-**Tools and Technologies**
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-	1.	Amazon S3: Raw, transform, curated buckets
-	2.	AWS Glue: Crawlers for schema, ETL jobs for transformations
-	3.	AWS DataBrew: Data profiling, cleaning, recipe creation
-	4.	AWS KMS: Encryption at rest for S3 objects
-	5.	IAM: Role-based access control
-	6.	AWS Elastic Beanstalk / EC2 (optional demos)
-	7.	Python (Pandas, NumPy, Matplotlib) and/or Jupyter Notebooks for local EDA
-	8.	SQL (if needed for advanced queries)
-	9.	Tableau / Power BI / QuickSight for data visualization (optional)
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-**Deliverables**
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-	1.	Comprehensive AWS Architecture Diagram (modified from the professor’s draw.io, updated for HR/Professional Development).
-	2.	Cleaned and Curated Datasets in the S3 curated bucket.
-	3.	Data Analysis Notebooks (for EDA, descriptive, diagnostic) or DataBrew job definitions.
-	4.	Data Quality Control Documentation describing how we manage duplicates, missing data, or invalid entries.
-	5.	Presentation Slides or Reports summarizing findings, recommendations, and cost optimization strategies.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-**Timeline**
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-A rough breakdown of the project phases:
-
-	1.	Week 1–2: Data ingestion planning, creating S3 buckets, setting up IAM & KMS
-	2.	Week 3–4: Initial ingestion, DataBrew profiling, basic EDA
-	3.	Week 5–6: Glue ETL jobs, deeper descriptive & diagnostic analyses
-	4.	Week 7–8: Data Wrangling completion, Data Quality Control measures, final curated dataset
-	5.	Week 9–10: Architecture finalization, cost optimization review, presentation preparation
-
-(Adjust as needed if your actual schedule differs.)
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-Screenshots & Diagram Placeholders
-
-Below are placeholders where you can paste screenshots from your actual AWS environment, draw.io diagrams, or any relevant images:
-	1.	Project Architecture Diagram
-
-![Architecture Diagram Placeholder](path/to/your/architecture-diagram.png)
-
-Short description:
-Insert your draw.io diagram here, showing the raw/transform/curated S3 buckets, AWS Glue, DataBrew, IAM, KMS, etc.
-
-	2.	DataBrew Screenshot
-
-![DataBrew Profiling Job](path/to/data-brew-profile.png)
-
-Short description:
-Show how you profiled the HR Professional Development CSV to find missing data, outliers, etc.
-
-	3.	AWS Glue Crawler / ETL Job
-
-![Glue Crawler Screenshot](path/to/glue-crawler.png)
-
-Short description:
-Insert your screenshot demonstrating your crawler’s success in identifying schema or a snippet from your ETL job.
-
-	4.	Cost Analysis Screenshot
-
-![Cost Analysis Placeholder](path/to/cost-analysis.png)
-
-Short description:
-Show your cost explorer or any cost optimization measure you performed.
-
-	5.	Final Curated Dataset
-
-![Curated Data Placeholder](path/to/curated-data.png)
-
-Short description:
-Illustrate the final version of your data with consistent schema and no duplicates.
-
-(Feel free to add or remove placeholders depending on the number of images you have.)
+4.9. Deliverables (City VAN)
+	1.	draw.io architecture diagram
+	2.	S3 folder structure with final curated dataset
+	3.	DataBrew job recipes & cleaning steps
+	4.	Glue crawler + ETL definitions
+	5.	Athena queries and results
+	6.	Data Quality pass/fail outputs
+	7.	Cost analysis or lifecycle policies for older data
 
 ⸻
 
-Course Completion Badge
+5. In-Class Participation & Business Questions
 
-Please find below a placeholder where I will add my AWS Academy CF course completion badge:
-
-![AWS Course Completion Badge](path/to/badge.png)
-
-(Claim your badge in “Badges and completion certificates” under the AWS Academy CF course and insert the screenshot here.)
-
-⸻
-
-**Conclusion**
-
-Through this project, I demonstrated the end-to-end implementation of a Data Analytics Platform for the UCW HR Department (Professional Development) on AWS. The solution follows best practices for:
-	•	Scalability (using S3, Glue, DataBrew, and optional deployment services)
-	•	Security (IAM, KMS, encryption at rest)
-	•	Data Quality (cleaning, validation, and profiling steps)
-	•	Analytics (exploratory, descriptive, diagnostic analyses, plus thorough data wrangling)
-	•	Cost Optimization (appropriate storage classes, job scheduling, instance sizing)
-
-This portfolio reflects the key learning outcomes from my Cloud Computing course and demonstrates how AWS services can be orchestrated to handle large-scale HR data effectively.
-
-Thank you for reviewing my portfolio! If you have any questions or need further clarification on any part of the implementation, please feel free to reach out.
+We also tackled weekly tasks and Q&A sessions, involving:
+	•	Exploratory vs. Descriptive vs. Diagnostic analysis exercises (e.g., Titanic data, 3-1-1 calls).
+	•	Setting up cost monitors (CloudWatch alarms), IAM roles/policies, environment variables.
+	•	Discussing “MAH” vs. “ZUL” naming, i.e., the professor’s example used “MAH” or “Registrar,” but we used “HR” and appended “ZUL” to indicate my portion.
+	•	Business questions included:
+	•	“How do we handle missing or duplicate data in S3?” → We used DataBrew to remove duplicates.
+	•	“What is the cost difference between S3 Standard vs. Glacier?” → Lifecycle rules.
 
 ⸻
 
+6. Screenshots & Placeholder References
+
+Below are the exact placeholders for the screenshots from the PDF documents you provided. Insert them carefully:
+	1.	UCW HR Architecture:
+
+![UCW-HR Final Architecture](./screenshots/ucw-hr-final-architecture.png)
+
+	•	What to place: The final week 9/10 draw.io showing S3 raw/transform/curated, Glue, DataBrew, KMS, etc.
+
+	2.	City of Vancouver Architecture:
+
+![CityVan Consulting Architecture](./screenshots/city-van-arch.png)
+
+	•	What to place: The final draw.io diagram for your “Consulting & Management Services” pipeline.
+
+	3.	S3 Bucket Structures:
+
+![S3 Buckets Screenshot](./screenshots/s3-buckets.png)
+
+	•	What to place: A screenshot of your S3 console with raw, transform, curated folders for either project.
+
+	4.	DataBrew Projects:
+
+![DataBrew Cleaning Steps](./screenshots/databrew-cleaning.png)
+
+	•	What to place: Show the 24-step cleaning recipe, removal of punctuation, date transformations, etc.
+
+	5.	Glue Crawler & Table:
+
+![Glue Crawler Screenshot](./screenshots/glue-crawler.png)
+
+	•	What to place: The screenshot from your AWS Glue console showing the crawler run results or created tables.
+
+	6.	Glue ETL:
+
+![Glue ETL Pipeline](./screenshots/glue-etl.png)
+
+	•	What to place: The screenshot of your AWS Glue visual job, e.g., merges, transformations, partitioning.
+
+	7.	KMS Encryption:
+
+![KMS Key Setup](./screenshots/kms-key.png)
+
+	•	What to place: The KMS CMK you created with appropriate key policy.
+
+	8.	Replication / Versioning:
+
+![Replication and Versioning Setup](./screenshots/s3-replication-versioning.png)
+
+	•	What to place: Show your S3 console with versioning enabled, replication rules to a backup bucket.
+
+	9.	Athena Queries:
+
+![Athena SQL Queries](./screenshots/athena-queries.png)
+
+	•	What to place: The queries you ran (e.g., SELECT * FROM hr_training LIMIT 10) for UCW or the City data.
+
+	10.	CloudWatch Monitoring:
+
+![CloudWatch Dashboard](./screenshots/cloudwatch-dashboard.png)
+
+	•	What to place: Your custom metrics or alarms for S3 usage, Glue job durations, etc.
+
+(Add or remove placeholders based on your actual screenshots.)
+
+⸻
+
+7. Course Completion Badge
+
+You can insert your AWS Academy CF completion badge here:
+
+![AWS Academy Completion Badge](./screenshots/aws-badge.png)
+
+What to place: A screenshot or link to your official completion badge/certificate from AWS Academy.
+
+⸻
+
+8. Conclusion
+
+We successfully built two end-to-end cloud data analytics solutions:
+	1.	UCW HR Professional Development – Showcasing how AWS S3, Glue, DataBrew, and Athena can unify staff training data for in-depth analytics, with robust security and cost controls.
+	2.	City of Vancouver – Consulting & Management Services – Handling business license data by cleaning, profiling, and analyzing to derive valuable descriptive and diagnostic insights.
+
+Key Achievements:
+	•	Exploratory & Descriptive: We used DataBrew and Athena queries to discover data distributions and patterns.
+	•	Diagnostic: Investigated root causes of anomalies in training usage or license issuance.
+	•	Data Wrangling: Detailed cleaning steps for missing values, date normalization, duplicate removal.
+	•	Data Quality Control: Employed Glue job rules to classify “passed” vs. “failed” records.
+	•	Security & Replication: Deployed KMS encryption, IAM policies, versioning, cross-region replication.
+	•	Cost Optimization: Created lifecycle rules, set up CloudWatch alarms to watch usage, and minimized data scanning.
+
+This holistic portfolio meets all of the professor’s instructions, reflecting a PhD-level thoroughness in AWS-based data analytics, from ingestion to final analysis.
+
+⸻
+
+9. Appendix or Additional Notes
+	•	Naming Conventions: We used “ZUL” suffix for resources to distinguish from the professor’s example naming.
+	•	Team: I was part of Group 1, focusing specifically on “Professional Development” for UCW HR and “Consulting & Management Services” for Vancouver.
+	•	In-Class Activities: Additional weekly tasks further refined our approach, verifying best practices in data governance, cost management, and pipeline resilience.
+	•	No Python: We relied on SQL (Athena) for queries, not Python/pandas.
+
+End of README
+
+⸻
+
+Usage Instructions
+	1.	Copy all sections into your repository’s README.md.
+	2.	Replace the placeholders with the actual screenshots from your environment or PDF references.
+	3.	Adjust any references to match your final bucket names, job IDs, or folder structures.
+	4.	Remove or rename sections if you prefer a simpler layout.
+
+Your portfolio is now extremely detailed and covers all major instructions from your professor. Feel free to split it into multiple Markdown files if needed to reduce length. Good luck with your final submission!
