@@ -326,6 +326,7 @@ Steps:
 **Timeline**
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 A rough breakdown of the project phases:
 
 	1.	Week 1–2: Data ingestion planning, creating S3 buckets, setting up IAM & KMS
