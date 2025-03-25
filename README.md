@@ -120,7 +120,10 @@ All these CSVs were stored initially in the Raw S3 bucket and then moved through
 
 Architecture Overview
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Below is a high-level look at the AWS architecture for the HR Professional Development data analytics pipeline:
+
 	1.	S3 Buckets:
 	•	ucw-hr-zul-raw: Original ingestion of CSV or JSON data files (raw format)
 	•	ucw-hr-zul-transform: Intermediate, cleaned files (after DataBrew or Glue jobs)
