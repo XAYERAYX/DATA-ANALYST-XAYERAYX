@@ -118,7 +118,7 @@ All these CSVs were stored initially in the Raw S3 bucket and then moved through
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-Architecture Overview
+**Architecture Overview**
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
@@ -151,16 +151,21 @@ Below is a high-level look at the AWS architecture for the HR Professional Devel
 
 (See the placeholder below where I have included an example draw.io architectural diagram. In my actual project, I replaced all references to “Registrar” with “HR” and “MAH” with “ZUL.”)
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-Methodology
+**Methodology**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 1. Exploratory Data Analysis
 
 Project Description (EDA):
 Conduct an Exploratory Data Analysis on the HR Professional Development dataset to discover patterns, anomalies, or interesting trends. This corresponds to investigating factors such as which employees are most active in training, the most expensive workshops, or seasonal trends in professional development.
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Steps:
+
 	1.	Data Collection & Preparation
 	•	Loaded CSV files from the Raw S3 bucket (e.g., Professional_Development_Activities.csv) using Python (Pandas) or AWS DataBrew.
 	•	Handled missing values (e.g., missing cost or duration).
@@ -178,14 +183,19 @@ Steps:
 	5.	Conclusion
 	•	Summarized potential next steps like advanced predictive modeling or trend forecasting.
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-2. Descriptive Analysis
+**2. Descriptive Analysis**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Project Description (Descriptive Analysis):
 Provide a detailed overview of how professional development activities have been used by the HR department over a certain period. Summarize the key patterns in terms of cost, frequency, popularity, and outcomes.
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Steps:
+
 	1.	Data Collection & Cleaning
 	•	Use AWS Glue or DataBrew to remove duplicates, standardize activity names.
 	2.	Descriptive Statistics
@@ -198,14 +208,19 @@ Steps:
 	5.	Recommendations
 	•	Provide suggestions to HR on which types of training yield the most positive feedback.
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-3. Diagnostic Analysis
+**3. Diagnostic Analysis**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Project Description (Diagnostic Analysis):
 Investigate if there are any decreases or abnormal trends in professional development participation or expenditures. For instance, if the HR department sees lower participation in certain quarters, we identify root causes (budget constraints, scheduling conflicts, etc.).
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Steps:
+
 	1.	Trend Analysis
 	•	Compare data over the last year or last few quarters to spot any declines.
 	2.	Correlation Analysis
@@ -218,14 +233,19 @@ Steps:
 	5.	Actionable Recommendations
 	•	Suggest additional communication channels, better scheduling, or improved budget allocation.
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-4. Data Wrangling
+**4. Data Wrangling**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Project Description (Data Wrangling):
 Gather and unify data from multiple HR sources (e.g., main employee list, professional development activities, finance/reimbursement data) to create a clean “single source of truth” for analyzing professional development.
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Steps:
+
 	1.	Data Collection
 	•	Pull CSV or database exports from multiple sources.
 	•	Consolidate them in S3 raw bucket.
@@ -242,14 +262,19 @@ Steps:
 	•	Run quick EDA checks or summary stats to ensure final dataset matches expectations.
 	•	Document transformations (in Jupyter Notebook or DataBrew jobs).
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-5. Data Quality Control
+**5. Data Quality Control**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Project Description (Data Quality Control):
 Implement measures that ensure the data is accurate, consistent, and reliable over time. This includes Data Profiling, Cleansing, Validation Rules, and Monitoring.
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 Steps:
+
 	1.	Current State Assessment
 	•	Evaluate existing data for duplicates, missing values, or incorrect formatting.
 	2.	Data Profiling
@@ -268,9 +293,12 @@ Steps:
 	•	Educate team members on correct data entry methods.
 	•	Encourage a culture of accountability for data cleanliness.
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-Tools and Technologies
+**Tools and Technologies**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 	1.	Amazon S3: Raw, transform, curated buckets
 	2.	AWS Glue: Crawlers for schema, ETL jobs for transformations
 	3.	AWS DataBrew: Data profiling, cleaning, recipe creation
@@ -281,20 +309,25 @@ Tools and Technologies
 	8.	SQL (if needed for advanced queries)
 	9.	Tableau / Power BI / QuickSight for data visualization (optional)
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-Deliverables
+**Deliverables**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 	1.	Comprehensive AWS Architecture Diagram (modified from the professor’s draw.io, updated for HR/Professional Development).
 	2.	Cleaned and Curated Datasets in the S3 curated bucket.
 	3.	Data Analysis Notebooks (for EDA, descriptive, diagnostic) or DataBrew job definitions.
 	4.	Data Quality Control Documentation describing how we manage duplicates, missing data, or invalid entries.
 	5.	Presentation Slides or Reports summarizing findings, recommendations, and cost optimization strategies.
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-Timeline
+**Timeline**
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 A rough breakdown of the project phases:
+
 	1.	Week 1–2: Data ingestion planning, creating S3 buckets, setting up IAM & KMS
 	2.	Week 3–4: Initial ingestion, DataBrew profiling, basic EDA
 	3.	Week 5–6: Glue ETL jobs, deeper descriptive & diagnostic analyses
@@ -303,7 +336,7 @@ A rough breakdown of the project phases:
 
 (Adjust as needed if your actual schedule differs.)
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Screenshots & Diagram Placeholders
 
