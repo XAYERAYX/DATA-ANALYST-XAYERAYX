@@ -16,6 +16,8 @@ Below is a comprehensive explanation of each major section of the project, along
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 **Table of Contents**
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 	
  1.	Project Description
 	
@@ -51,31 +53,34 @@ Below is a comprehensive explanation of each major section of the project, along
 	
  17.	Conclusion
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 **Project Description**
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Department: HR – Professional Development
 Focus: Building an end-to-end data analytics platform and pipelines for HR’s professional development programs at UCW.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 In our Cloud Computing course, each student group was assigned a department. My team was assigned HR, and my specific role targeted the Professional Development subset of HR data. Throughout the course, we learned how to architect solutions in AWS, using S3 for storage (with separate buckets for raw, transformed, and curated data), AWS Glue for ETL/ELT tasks, AWS DataBrew for data profiling and cleaning, AWS IAM/KMS for security and encryption, and so on. We also explored cost optimization strategies, usage logs, and partial application deployments via AWS Elastic Beanstalk and EC2 for demonstration purposes.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 **Project Title**
 
 “Implementing a Cloud-Based Data Analytics Platform for HR Professional Development at UCW”
 
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 **Objective**
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 The main goal is to gather, process, analyze, and gain insights into professional development activities within the UCW HR department, ensuring data is secure, well-structured, and readily available for advanced analytics. This covers:
+
 	1.	Data Ingestion of CSV files and other structured data
 	2.	Data Storage in AWS S3 (raw, transform, curated buckets)
 	3.	ETL using AWS Glue (Glue crawlers, jobs) and AWS DataBrew for data cleaning
@@ -86,13 +91,14 @@ The main goal is to gather, process, analyze, and gain insights into professiona
 	8.	Cost Optimization evaluation for the chosen AWS services
 	9.	Deployment of relevant prototypes or dashboards for end users (if needed)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 **Dataset Overview**
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 I worked primarily with Professional Development data stored in CSV format (e.g., Professional_Development_Activities.csv). The dataset typically includes fields like:
+
 	•	Employee ID / Name
 	•	Training/Workshop Name
 	•	Dates
@@ -101,7 +107,7 @@ I worked primarily with Professional Development data stored in CSV format (e.g.
 	•	Feedback or Evaluation metrics
 	•	Any Additional Fields relevant to staff development
 
- ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 **Other auxiliary datasets might include:**
 
@@ -110,7 +116,7 @@ I worked primarily with Professional Development data stored in CSV format (e.g.
 
 All these CSVs were stored initially in the Raw S3 bucket and then moved through the pipeline for cleaning, transformation, and curation.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Architecture Overview
 
