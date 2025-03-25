@@ -14,24 +14,42 @@ Welcome to my portfolio project, where I showcase how I implemented a Data Analy
 Below is a comprehensive explanation of each major section of the project, along with placeholders where I include relevant architecture diagrams, AWS console screenshots, data analysis results, and course completion badge at the end.
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 **Table of Contents**
-	1.	Project Description
-	2.	Project Title
-	3.	Objective
-	4.	Dataset
-	5.	Architecture Overview
-	6.	Methodology
-	1.	Exploratory Data Analysis
-	2.	Descriptive Analysis
-	3.	Diagnostic Analysis
-	4.	Data Wrangling
-	5.	Data Quality Control
-	7.	Tools and Technologies
-	8.	Deliverables
-	9.	Timeline
-	10.	Screenshots & Diagram Placeholders
-	11.	Course Completion Badge
-	12.	Conclusion
+	
+ 1.	Project Description
+	
+ 2.	Project Title
+
+ 3.	Objective
+
+ 4.	Dataset
+
+ 5.	Architecture Overview
+
+ 6.	Methodology
+	
+ 7.	Exploratory Data Analysis
+
+ 8.	Descriptive Analysis
+	
+ 9.	Diagnostic Analysis
+	
+ 10.	Data Wrangling
+	
+ 11.	Data Quality Control
+	
+ 12.	Tools and Technologies
+	
+ 13.	Deliverables
+	
+ 14.	Timeline
+	
+ 15.	Screenshots & Diagram Placeholders
+	
+ 16.	Course Completion Badge
+	
+ 17.	Conclusion
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
