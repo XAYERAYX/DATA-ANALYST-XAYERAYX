@@ -1,14 +1,4 @@
-Below is a highly detailed, PhD-level portfolio README that thoroughly covers both of your major projects:
-	1.	UCW HR Professional Development (your “department” was Professional Development within HR).
-	2.	City of Vancouver – Consulting & Management Services (your specific portion of the group project).
-
-It integrates all instructions from the professor on exploratory/ descriptive/ diagnostic analyses, data wrangling, data quality, cost optimization, AWS usage, naming conventions, etc. It also includes placeholders telling you exactly which screenshots to insert (e.g., from your draw.io final diagrams, S3 console, DataBrew, Glue, etc.). Replace or remove any references as needed, and fill in the placeholders with the correct images from your PDF documents and screenshots.
-
-Since you said you didn’t use Python/Pandas but rather SQL (Athena or otherwise) for queries, I’ve removed any references to Python code. This portfolio is extremely comprehensive and can be split into multiple README sections if desired. However, below is one monolithic version for copy-paste convenience.
-
-⸻
-
-Comprehensive Cloud Computing Portfolio
+Cloud Computing Portfolio
 
 Author: Muhammad Zulqarnain Shahzad (2306553)
 Course: BUSI 653 - Cloud Computing Technologies
@@ -366,25 +356,3 @@ Key Achievements:
 	•	Data Quality Control: Employed Glue job rules to classify “passed” vs. “failed” records.
 	•	Security & Replication: Deployed KMS encryption, IAM policies, versioning, cross-region replication.
 	•	Cost Optimization: Created lifecycle rules, set up CloudWatch alarms to watch usage, and minimized data scanning.
-
-This holistic portfolio meets all of the professor’s instructions, reflecting a PhD-level thoroughness in AWS-based data analytics, from ingestion to final analysis.
-
-⸻
-
-9. Appendix or Additional Notes
-	•	Naming Conventions: We used “ZUL” suffix for resources to distinguish from the professor’s example naming.
-	•	Team: I was part of Group 1, focusing specifically on “Professional Development” for UCW HR and “Consulting & Management Services” for Vancouver.
-	•	In-Class Activities: Additional weekly tasks further refined our approach, verifying best practices in data governance, cost management, and pipeline resilience.
-	•	No Python: We relied on SQL (Athena) for queries, not Python/pandas.
-
-End of README
-
-⸻
-
-Usage Instructions
-	1.	Copy all sections into your repository’s README.md.
-	2.	Replace the placeholders with the actual screenshots from your environment or PDF references.
-	3.	Adjust any references to match your final bucket names, job IDs, or folder structures.
-	4.	Remove or rename sections if you prefer a simpler layout.
-
-Your portfolio is now extremely detailed and covers all major instructions from your professor. Feel free to split it into multiple Markdown files if needed to reduce length. Good luck with your final submission!
